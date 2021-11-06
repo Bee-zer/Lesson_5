@@ -8,7 +8,7 @@ try:
         print(tokens)
         if tokens[0] in translater:
             word = translater[tokens[0]]
-            result.append(word +' - '+ tokens[1])
+            result.append(word + ' - ' + tokens[1])
     print(result)
 except IOError:
     print("Произошла ошибка ввода-вывода!")
